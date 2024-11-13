@@ -2,6 +2,9 @@ import os
 from flask import Flask, request, jsonify
 from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptFound, VideoUnavailable
 
+# Alteração para testar a modificação
+
+
 # Inicializando o Flask
 app = Flask(__name__)
 
